@@ -9,6 +9,7 @@ function SignIn () {
       <Content>
         <h1>Faça seu login</h1>
         <Input name="Login" />
+        <Input name="Senha" />
       </Content>
       <Background />
     </Container>
