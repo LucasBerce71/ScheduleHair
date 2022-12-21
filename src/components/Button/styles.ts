@@ -11,4 +11,11 @@ export const Container = styled.button`
     width: 410px;
     margin-top: 16px;
 
+    transition: 0.2s;
+
+    &:hover {
+        cursor: pointer;
+
+        opacity: 0.8;
+    }
 `;

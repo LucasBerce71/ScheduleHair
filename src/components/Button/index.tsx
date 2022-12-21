@@ -7,7 +7,7 @@ interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 function Button({ isLoading, children, ...rest }: IButtonProps) {
   return( 
-    <Container> 
+    <Container {...rest}> 
       Entrar      
     </Container> 
   )
