@@ -9,7 +9,7 @@ interface IInputProps {
   onChange: Function; 
 }
 
-function Input({ name, icon, value, onChange }: IInputProps) {
+function Input({ name, value, onChange }: IInputProps) {
   return (
     <Container>
       <input 

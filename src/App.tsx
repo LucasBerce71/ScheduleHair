@@ -1,10 +1,11 @@
 import "./global/resetCss.css";
-import SignIn from "./pages/SignIn";
+import { RouterProvider } from "react-router-dom";
+import router from "./routes/Index";
 
 function App() {
   return (
     <div className="App">
-      <SignIn />
+      <RouterProvider router={router} />
     </div>
   );
 }
